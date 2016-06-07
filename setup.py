@@ -39,8 +39,8 @@ version = info.get('version', '0.0.1')
 major_version, minor_version, _ = version.split('.', 2)
 major_version = int(major_version)
 minor_version = int(minor_version)
-name = 'trytonzz_party_type'
-download_url = 'https://bitbucket.org/zikzakmedia/trytond-party_type'
+name = 'trytonspain_party_type'
+download_url = 'https://bitbucket.org/trytonspain/trytond-party_type'
 
 requires = []
 for dep in info.get('depends', []):
@@ -59,9 +59,9 @@ setup(name=name,
     version=version,
     description='Tryton Party Type Module',
     long_description=read('README'),
-    author='Zikzakmedia SL',
-    author_email='zikzak@zikzakmedia.com',
-    url='https://bitbucket.org/zikzakmedia/',
+    author='TrytonSpain',
+    author_email='',
+    url='https://bitbucket.org/trytonspain/',
     download_url=download_url,
     keywords='',
     package_dir={'trytond.modules.party_type': '.'},
