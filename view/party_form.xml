@@ -2,19 +2,12 @@
 <!-- The COPYRIGHT file at the top level of this repository
 contains the full copyright notices and license terms. -->
 <data>
-    <xpath expr="/form/field[@name='name']" position="replace"/>
-    <xpath expr="/form/label[@name='name']" position="replace">
+    <xpath expr="/form/label[@name='name']" position="before">
         <label name="party_type"/>
         <field name="party_type"/>
-    </xpath>
-    <xpath expr="/form/group[@id='checkboxes']" position="after">
-        <label name="name"/>
-        <field name="name"/>
-        <group colspan="4" col="16" id="person">
-            <label name="first_name"/>
-            <field name="first_name"/>
-            <label name="gender"/>
-            <field name="gender"/>
-        </group>
+        <label name="gender"/>
+        <field name="gender"/>
+        <label name="first_name"/>
+        <field name="first_name"/>
     </xpath>
 </data>

@@ -4,8 +4,6 @@ contains the full copyright notices and license terms. -->
 <data>
     <xpath expr="/tree/field[@name='name']" position="before">
         <field name="party_type"/>
-    </xpath>
-    <xpath expr="/tree/field[@name='name']" position="after">
         <field name="first_name"/>
     </xpath>
 </data>
