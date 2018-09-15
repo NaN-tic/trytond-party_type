@@ -18,8 +18,7 @@ STATES_PERSON = {
 STATES_PERSON_DEPENDS = ['active', 'party_type']
 
 
-class Party:
-    __metaclass__ = PoolMeta
+class Party(metaclass=PoolMeta):
     __name__ = "party.party"
 
     party_type = fields.Selection(
