@@ -2,7 +2,7 @@
 <!-- The COPYRIGHT file at the top level of this repository
 contains the full copyright notices and license terms. -->
 <data>
-    <xpath expr="/form/label[@name='name']" position="before">
+    <xpath expr="/form/group[@id='header']/label[@name='name']" position="before">
         <label name="party_type"/>
         <field name="party_type"/>
         <label name="gender"/>
